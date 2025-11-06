@@ -1,0 +1,13 @@
+pandas
+numpy
+scikit-learn
+statsmodels
+prophet
+matplotlib
+jupyter
+requests
+beautifulsoup4
+sqlite-utils
+pyarrow
+openpyxl
+shap
