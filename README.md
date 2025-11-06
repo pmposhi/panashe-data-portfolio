@@ -1,24 +1,38 @@
 # Panashe Mposhi — Data Portfolio
 
-Clean, focused portfolio for **Data / Analytics** roles. Each project shows an end‑to‑end story: **data → SQL/Python → model/insights → dashboard → business value**.
+Welcome to my data portfolio.  
+I use Python, Pandas, and SQL to extract insights, solve real-world problems, and communicate findings clearly.  
+This portfolio highlights my ability to work with datasets end-to-end — from cleaning and transformation to analysis and interpretation.
 
-## Projects
-1. **Football Analytics: Match & xG Insights** — SQL + Python + Power BI
-2. **Retail Sales Forecasting** — Time Series + Feature Engineering
-3. **Customer Churn Prediction** — Classification + Explainability (SHAP)
-4. **UK Tech Job Market Scraper** *(Bonus)* — Web scraping + SQLite + Trend analysis
+---
 
-> Live dashboards / PDFs and GitHub repos are linked in each project folder.
+## 📊 Project 1 — Premier League Football Analytics
 
-## Tech Stack
-- **Python** (pandas, numpy, scikit-learn, statsmodels/prophet, requests/bs4)
-- **SQL** (PostgreSQL/SQLite; dbt optional)
-- **Power BI** (or Tableau) for dashboards
-- **Versioning**: Git + GitHub
+**Goal:**  
+Analyze match results to compare team performance and generate a final league table based on total points, goals scored, and goals conceded.
 
-## Hiring Signals
-- Real data cleaning & pipeline structure
-- Reproducible notebooks & clear READMEs
-- SQL queries for analytics
-- Deployed or shareable dashboards (Power BI / images / PDFs)
-- Sensible metrics & a short business write-up
+**Dataset:**  
+English Premier League (2021–2022 season)
+
+**Key Steps:**
+- Cleaned and prepared raw match data in CSV format.
+- Calculated points earned in home vs. away matches.
+- Combined home and away performance into a final league ranking.
+- Added goal-scoring and defensive performance metrics.
+- Exported processed data into a clean, ready-to-use dataset.
+
+**Tech Used:**  
+`Python`, `Pandas`, `Jupyter Notebooks`
+
+**Example Outputs:**
+- Total points table (home + away performance)
+- Goals scored vs. goals conceded for each team
+- Final sorted league standings
+
+**Folder:**  
+`01-football-analytics`
+
+---
+
+## 📦 Project Structure
+
