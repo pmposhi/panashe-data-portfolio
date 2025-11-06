@@ -1,85 +1,70 @@
-# Panashe Mposhi — Data Portfolio
-
-Welcome to my data portfolio.  
-I use Python, Pandas, and SQL to extract insights, solve real-world problems, and communicate findings clearly.  
-This portfolio highlights my ability to work with datasets end-to-end — from cleaning and transformation to analysis and interpretation.
-
----
-
-## 📊 Project 1 — Premier League Football Analytics
+# ⚽ Premier League Performance Analysis (2021/22)
 
 **Goal:**  
-Analyze match results to compare team performance and generate a final league table based on total points, goals scored, and goals conceded.
+Analyze match results to compare team performance and generate a final league table based on total points.
 
-**Dataset:**  
-English Premier League (2021–2022 season)
-
-**Key Steps:**
-- Cleaned and prepared raw match data in CSV format.
-- Calculated points earned in home vs. away matches.
-- Combined home and away performance into a final league ranking.
-- Added goal-scoring and defensive performance metrics.
-- Exported processed data into a clean, ready-to-use dataset.
-
-**Tech Used:**  
-`Python`, `Pandas`, `Jupyter Notebooks`
-
-**Example Outputs:**
-- Total points table (home + away performance)
-- Goals scored vs. goals conceded for each team
-- Final sorted league standings
-
-**Folder:**  
-`01-football-analytics`
-
----
-
-## 📦 Project Structure
-data-portfolio-starter/
-│
-├── 01-football-analytics/ # Current project (Premier League analysis)
-│ ├── notebooks/ # Jupyter notebooks
-│ └── data/
-│ ├── raw/ # Original dataset
-│ └── processed/ # Cleaned league table output
-│
-├── 02-retail-forecasting/ # Next project (Time series forecasting)
-├── 03-customer-churn/ # Future project (Churn prediction)
-└── 04-job-market-scraper/ # Future project (Web data scraping)
-
----
-
-## 🔥 Skills Demonstrated
-
+### 🧠 Skills Demonstrated
 - Data cleaning & wrangling using **Pandas**
-- Data aggregation & grouping logic
-- Working with CSV data
-- Notebook-based analysis workflow
+- Grouping & aggregating match results
+- Creating new metrics (Goal Difference & Points)
 - Exporting processed datasets for reporting
-- Clear, structured project organization
+- Notebook-based analytical workflow
+- Clean project structure for reproducibility
 
 ---
 
-## 🎯 What’s Next
+### 📂 Project Structure
+data-portfolio-starter/
+└── 01-football-analytics/
+├── notebooks/
+│ └── 01_exploration.ipynb ← Main analysis notebook
+└── data/
+├── raw/ ← Original match dataset
+└── processed/
+└── league_table.csv ← Final league standings output
 
-**Project 2 — Retail Sales Forecasting** (Time Series Analysis)  
-→ Predict monthly sales performance using real business data.  
-→ Involves trend analysis, seasonality, and forecasting models.
+📊 Key Results
+| Team      | Home Points | Away Points | Total Points |
+| --------- | ----------- | ----------- | ------------ |
+| Man City  | 47          | 46          | **93**       |
+| Liverpool | 49          | 43          | **92**       |
+| Chelsea   | 34          | 40          | 74           |
 
-This project adds:
-- Time series modeling
-- Data visualization
-- Business narratives
+✅ Man City finished top due to a strong balance of home + away performance.
+
+.
+
+🗂 Dataset
+
+Source: Premier League match data (2021/22)
+Format: CSV
+380 matches × 22 columns
+
+▶️ How to Run This Project
+cd 01-football-analytics
+jupyter notebook
+
+Open the file:
+notebooks/01_exploration.ipynb
+
+👤 Author
+Panashe Mposhi — Data Analyst
+Skilled in: Python, Pandas, SQL
 
 ---
 
-## 👋 About Me
+### ✅ Step After Pasting
+Scroll down to the bottom of the page and click:
 
-I’m a developing data analyst focused on turning messy data into clear insight.  
-I value clarity, structure, and practical storytelling in analysis.
+**Commit changes**
 
-If you’d like to connect or collaborate, feel free to reach out.
+(Green button)
 
+---
 
+When you’ve done that, just reply:
 
+**DONE ✅**
+
+380 matches × 22 columns
 
